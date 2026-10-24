@@ -1,0 +1,8 @@
+Independent pswitch-linear-reversed-middle-signal
+VDR IN 0 DC .1
+VCTRL DRIVE 0 DC 0.10000000000000001
+RC DRIVE CTRL 0
+A1 %gd CTRL 0 %gd IN OUT MODE
+.model MODE pswitch(r_on=100 r_off=10000 cntl_on=0 cntl_off=0.20000000000000001 log=false r_cntl_in=1000000000000)
+RL OUT 0 1k
+.end

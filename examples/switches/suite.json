@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "name": "switch-current-jacobians",
+  "defaults": {
+    "mode": "ps",
+    "frequency": 1e-05,
+    "rtol": 0.0001,
+    "atol": 1e-08
+  },
+  "cases": [
+    {
+      "id": "ticket-passive",
+      "deck": "reproducers/passive.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-off-signal",
+      "deck": "reproducers/pswitch-log-forward-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-off-control",
+      "deck": "reproducers/pswitch-log-forward-off-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-quarter-signal",
+      "deck": "reproducers/pswitch-log-forward-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-quarter-control",
+      "deck": "reproducers/pswitch-log-forward-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-middle-signal",
+      "deck": "reproducers/pswitch-log-forward-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-middle-control",
+      "deck": "reproducers/pswitch-log-forward-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-threequarter-signal",
+      "deck": "reproducers/pswitch-log-forward-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-threequarter-control",
+      "deck": "reproducers/pswitch-log-forward-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-on-signal",
+      "deck": "reproducers/pswitch-log-forward-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-forward-on-control",
+      "deck": "reproducers/pswitch-log-forward-on-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-off-signal",
+      "deck": "reproducers/pswitch-log-reversed-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-off-control",
+      "deck": "reproducers/pswitch-log-reversed-off-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-quarter-signal",
+      "deck": "reproducers/pswitch-log-reversed-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-quarter-control",
+      "deck": "reproducers/pswitch-log-reversed-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-middle-signal",
+      "deck": "reproducers/pswitch-log-reversed-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-middle-control",
+      "deck": "reproducers/pswitch-log-reversed-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-threequarter-signal",
+      "deck": "reproducers/pswitch-log-reversed-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-threequarter-control",
+      "deck": "reproducers/pswitch-log-reversed-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-on-signal",
+      "deck": "reproducers/pswitch-log-reversed-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-reversed-on-control",
+      "deck": "reproducers/pswitch-log-reversed-on-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-off-signal",
+      "deck": "reproducers/pswitch-linear-forward-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-off-control",
+      "deck": "reproducers/pswitch-linear-forward-off-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-quarter-signal",
+      "deck": "reproducers/pswitch-linear-forward-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-quarter-control",
+      "deck": "reproducers/pswitch-linear-forward-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-middle-signal",
+      "deck": "reproducers/pswitch-linear-forward-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-middle-control",
+      "deck": "reproducers/pswitch-linear-forward-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-threequarter-signal",
+      "deck": "reproducers/pswitch-linear-forward-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-threequarter-control",
+      "deck": "reproducers/pswitch-linear-forward-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-on-signal",
+      "deck": "reproducers/pswitch-linear-forward-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-forward-on-control",
+      "deck": "reproducers/pswitch-linear-forward-on-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-off-signal",
+      "deck": "reproducers/pswitch-linear-reversed-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-off-control",
+      "deck": "reproducers/pswitch-linear-reversed-off-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-quarter-signal",
+      "deck": "reproducers/pswitch-linear-reversed-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-quarter-control",
+      "deck": "reproducers/pswitch-linear-reversed-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-middle-signal",
+      "deck": "reproducers/pswitch-linear-reversed-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-middle-control",
+      "deck": "reproducers/pswitch-linear-reversed-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-threequarter-signal",
+      "deck": "reproducers/pswitch-linear-reversed-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-threequarter-control",
+      "deck": "reproducers/pswitch-linear-reversed-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-on-signal",
+      "deck": "reproducers/pswitch-linear-reversed-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-reversed-on-control",
+      "deck": "reproducers/pswitch-linear-reversed-on-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-off-signal",
+      "deck": "reproducers/aswitch-log-forward-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-off-control",
+      "deck": "reproducers/aswitch-log-forward-off-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-quarter-signal",
+      "deck": "reproducers/aswitch-log-forward-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-quarter-control",
+      "deck": "reproducers/aswitch-log-forward-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-middle-signal",
+      "deck": "reproducers/aswitch-log-forward-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-middle-control",
+      "deck": "reproducers/aswitch-log-forward-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-threequarter-signal",
+      "deck": "reproducers/aswitch-log-forward-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-threequarter-control",
+      "deck": "reproducers/aswitch-log-forward-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-on-signal",
+      "deck": "reproducers/aswitch-log-forward-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-forward-on-control",
+      "deck": "reproducers/aswitch-log-forward-on-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-off-signal",
+      "deck": "reproducers/aswitch-log-reversed-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-off-control",
+      "deck": "reproducers/aswitch-log-reversed-off-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-quarter-signal",
+      "deck": "reproducers/aswitch-log-reversed-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-quarter-control",
+      "deck": "reproducers/aswitch-log-reversed-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-middle-signal",
+      "deck": "reproducers/aswitch-log-reversed-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-middle-control",
+      "deck": "reproducers/aswitch-log-reversed-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-threequarter-signal",
+      "deck": "reproducers/aswitch-log-reversed-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-threequarter-control",
+      "deck": "reproducers/aswitch-log-reversed-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-on-signal",
+      "deck": "reproducers/aswitch-log-reversed-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-reversed-on-control",
+      "deck": "reproducers/aswitch-log-reversed-on-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-off-signal",
+      "deck": "reproducers/aswitch-linear-forward-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-off-control",
+      "deck": "reproducers/aswitch-linear-forward-off-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-quarter-signal",
+      "deck": "reproducers/aswitch-linear-forward-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-quarter-control",
+      "deck": "reproducers/aswitch-linear-forward-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-middle-signal",
+      "deck": "reproducers/aswitch-linear-forward-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-middle-control",
+      "deck": "reproducers/aswitch-linear-forward-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-threequarter-signal",
+      "deck": "reproducers/aswitch-linear-forward-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-threequarter-control",
+      "deck": "reproducers/aswitch-linear-forward-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-on-signal",
+      "deck": "reproducers/aswitch-linear-forward-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-forward-on-control",
+      "deck": "reproducers/aswitch-linear-forward-on-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-off-signal",
+      "deck": "reproducers/aswitch-linear-reversed-off-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-off-control",
+      "deck": "reproducers/aswitch-linear-reversed-off-control.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-quarter-signal",
+      "deck": "reproducers/aswitch-linear-reversed-quarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-quarter-control",
+      "deck": "reproducers/aswitch-linear-reversed-quarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-middle-signal",
+      "deck": "reproducers/aswitch-linear-reversed-middle-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-middle-control",
+      "deck": "reproducers/aswitch-linear-reversed-middle-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-threequarter-signal",
+      "deck": "reproducers/aswitch-linear-reversed-threequarter-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-threequarter-control",
+      "deck": "reproducers/aswitch-linear-reversed-threequarter-control.cir",
+      "source": "VCTRL",
+      "bias": 0.15,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-on-signal",
+      "deck": "reproducers/aswitch-linear-reversed-on-signal.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-reversed-on-control",
+      "deck": "reproducers/aswitch-linear-reversed-on-control.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-control-loading",
+      "deck": "reproducers/pswitch-control-loading.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(ctrl)"
+    },
+    {
+      "id": "pswitch-single-ended-control",
+      "deck": "reproducers/pswitch-single-ended-control.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-default-parameters",
+      "deck": "reproducers/pswitch-default-parameters.cir",
+      "source": "VCTRL",
+      "bias": 0.4,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-unit-control-span",
+      "deck": "reproducers/pswitch-unit-control-span.cir",
+      "source": "VCTRL",
+      "bias": 0.5,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-wide-control-span",
+      "deck": "reproducers/pswitch-wide-control-span.cir",
+      "source": "VCTRL",
+      "bias": 0,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-equal-control-limits",
+      "deck": "reproducers/pswitch-equal-control-limits.cir",
+      "source": "VCTRL",
+      "bias": 0,
+      "step": 1e-08,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-almost-equal-control-limits",
+      "deck": "reproducers/pswitch-almost-equal-control-limits.cir",
+      "source": "VCTRL",
+      "bias": 2.5e-13,
+      "step": 1e-08,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-ron-floor",
+      "deck": "reproducers/pswitch-ron-floor.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-roff-ceiling",
+      "deck": "reproducers/pswitch-roff-ceiling.cir",
+      "source": "VDR",
+      "bias": 0.1,
+      "step": 1e-05,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-log-resistance-clipped",
+      "deck": "reproducers/pswitch-log-resistance-clipped.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "pswitch-linear-resistance-floor",
+      "deck": "reproducers/pswitch-linear-resistance-floor.cir",
+      "source": "VCTRL",
+      "bias": 0.05,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-log-unlimited",
+      "deck": "reproducers/aswitch-log-unlimited.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-unlimited",
+      "deck": "reproducers/aswitch-linear-unlimited.cir",
+      "source": "VCTRL",
+      "bias": -0.1,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "aswitch-linear-resistance-floor",
+      "deck": "reproducers/aswitch-linear-resistance-floor.cir",
+      "source": "VCTRL",
+      "bias": 0.3,
+      "step": 1e-06,
+      "probe": "v(out)"
+    },
+    {
+      "id": "multi-switch-signal",
+      "deck": "reproducers/multi-switch.cir",
+      "source": "VDR",
+      "bias": 0.001,
+      "step": 1e-07,
+      "probe": "v(out)"
+    },
+    {
+      "id": "multi-switch-control",
+      "deck": "reproducers/multi-switch.cir",
+      "source": "VCTRL",
+      "bias": 0.1,
+      "step": 1e-07,
+      "probe": "v(out)"
+    }
+  ]
+}

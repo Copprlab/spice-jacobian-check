@@ -1,0 +1,10 @@
+{
+  "ngspice_master": "a80f6e3e95d51534905b1f23410a951802666656",
+  "before": "Unmodified master",
+  "after": "Switch current-Jacobian patch submitted on ngspice bug #883",
+  "issue_url": "https://sourceforge.net/p/ngspice/bugs/883/",
+  "archived_results": "Measured with the original single-pair checker; no raw logs or generated work files included. The standalone tool additionally checks return to the nominal DC point.",
+  "case_count": 97,
+  "before_passed": 11,
+  "after_passed": 97
+}

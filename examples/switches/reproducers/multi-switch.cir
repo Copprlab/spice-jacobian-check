@@ -1,0 +1,7 @@
+Independent switched-feedback amplifier collapse
+.include "multi-switch.lib"
+VDR IN 0 DC .001
+VCTRL CTRL 0 DC .1
+XU IN CTRL OUT MULTI
+RL OUT 0 1meg
+.end

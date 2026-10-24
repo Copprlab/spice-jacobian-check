@@ -1,0 +1,5 @@
+Independent passive switch divider
+.include "passive.lib"
+VDR IN 0 DC .1 AC 1
+XU IN OUT DEMO
+.end

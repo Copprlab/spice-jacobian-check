@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.cir text eol=lf
+*.lib text eol=lf
+*.json text eol=lf

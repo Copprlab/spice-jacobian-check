@@ -1,0 +1,8 @@
+Independent aswitch-linear-forward-on-signal
+VDR IN 0 DC .1
+VCTRL DRIVE 0 DC 0.29999999999999999
+RC DRIVE CTRL 0
+A1 %vd CTRL 0 %gd IN OUT MODE
+.model MODE aswitch(r_on=100 r_off=10000 cntl_on=0.20000000000000001 cntl_off=0 log=false limit=true)
+RL OUT 0 1k
+.end

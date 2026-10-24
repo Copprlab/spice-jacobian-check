@@ -1,0 +1,3208 @@
+{
+  "schema_version": 1,
+  "checks": [
+    {
+      "id": "ticket-passive",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.5000000000000001,
+          0.0
+        ]
+      ],
+      "dc_output": 0.049999999999999996,
+      "dc_slope_h": 0.4999999999991122,
+      "dc_slope_h_over_2": 0.5000000000011939,
+      "dc_step_agreement_abs": 2.0817236823233998e-12,
+      "ac_real": 0.5000000000000001,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.1938228183794308e-12,
+      "ac_vs_dc_relative": 2.3876456367531602e-12,
+      "tolerance_abs": 5.0010000000119395e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090904777,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 2.6020852139652106e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.17036717656865655,
+          0.0
+        ],
+        [
+          0.17036717656865655,
+          0.0
+        ],
+        [
+          0.17036717656865655,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01703671765686566,
+      "dc_slope_h": 0.17036717656834785,
+      "dc_slope_h_over_2": 0.17036717656938868,
+      "dc_step_agreement_abs": 1.0408340855860843e-12,
+      "ac_real": 0.17036717656865655,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.321365735890595e-13,
+      "ac_vs_dc_relative": 4.297403926811385e-12,
+      "tolerance_abs": 1.704671765693887e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.36613400251925987,
+          0.0
+        ],
+        [
+          0.36613400251925987,
+          0.0
+        ],
+        [
+          0.36613400251925987,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01703671765686566,
+      "dc_slope_h": 0.3661340025520182,
+      "dc_slope_h_over_2": 0.36613400250865014,
+      "dc_step_agreement_abs": 4.336808689942018e-11,
+      "ac_real": 0.36613400251925987,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.0609735312527846e-11,
+      "ac_vs_dc_relative": 2.8977738313931072e-11,
+      "tolerance_abs": 3.6623400250865015e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.5000000000000001,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05000000000000001,
+      "dc_slope_h": 0.49999999999876527,
+      "dc_slope_h_over_2": 0.5000000000018878,
+      "dc_step_agreement_abs": 3.122557767909484e-12,
+      "ac_real": 0.5000000000000001,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.8877122087701537e-12,
+      "ac_vs_dc_relative": 3.775424417526053e-12,
+      "tolerance_abs": 5.0010000000188784e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.8634694098727672,
+          0.0
+        ],
+        [
+          0.8634694098727672,
+          0.0
+        ],
+        [
+          0.8634694098727672,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05000000000000001,
+      "dc_slope_h": 0.8634694097821305,
+      "dc_slope_h_over_2": 0.8634694098549889,
+      "dc_step_agreement_abs": 7.28583859910259e-11,
+      "ac_real": 0.8634694098727672,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.777833436023002e-11,
+      "ac_vs_dc_relative": 2.0589420027300926e-11,
+      "tolerance_abs": 8.635694098549888e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.8296328234313435,
+          0.0
+        ],
+        [
+          0.8296328234313435,
+          0.0
+        ],
+        [
+          0.8296328234313435,
+          0.0
+        ]
+      ],
+      "dc_output": 0.08296328234313434,
+      "dc_slope_h": 0.8296328234312643,
+      "dc_slope_h_over_2": 0.8296328234305704,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.8296328234313435,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.730482920464965e-13,
+      "ac_vs_dc_relative": 9.31795693485108e-13,
+      "tolerance_abs": 8.297328234305704e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.36613400251926,
+          0.0
+        ],
+        [
+          0.36613400251926,
+          0.0
+        ],
+        [
+          0.36613400251926,
+          0.0
+        ]
+      ],
+      "dc_output": 0.08296328234313434,
+      "dc_slope_h": 0.36613400254681405,
+      "dc_slope_h_over_2": 0.36613400253293626,
+      "dc_step_agreement_abs": 1.3877787807814457e-11,
+      "ac_real": 0.36613400251926,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.3676282328844991e-11,
+      "ac_vs_dc_relative": 3.735321558290592e-11,
+      "tolerance_abs": 3.662340025329363e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.9090909090896103,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 2.0816681711721685e-12,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-forward-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.8296328234313434,
+          0.0
+        ],
+        [
+          0.8296328234313434,
+          0.0
+        ],
+        [
+          0.8296328234313434,
+          0.0
+        ]
+      ],
+      "dc_output": 0.08296328234313433,
+      "dc_slope_h": 0.8296328234298765,
+      "dc_slope_h_over_2": 0.8296328234305704,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.8296328234313434,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.72937269744034e-13,
+      "ac_vs_dc_relative": 9.31661872474985e-13,
+      "tolerance_abs": 8.297328234305704e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.36613400251926026,
+          0.0
+        ],
+        [
+          -0.36613400251926026,
+          0.0
+        ],
+        [
+          -0.36613400251926026,
+          0.0
+        ]
+      ],
+      "dc_output": 0.08296328234313433,
+      "dc_slope_h": -0.36613400256069184,
+      "dc_slope_h_over_2": -0.36613400254681405,
+      "dc_step_agreement_abs": 1.3877787807814457e-11,
+      "ac_real": -0.36613400251926026,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.755379258090329e-11,
+      "ac_vs_dc_relative": 7.52560330076971e-11,
+      "tolerance_abs": 3.662340025468141e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.5000000000000001,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05,
+      "dc_slope_h": 0.4999999999984183,
+      "dc_slope_h_over_2": 0.5000000000046634,
+      "dc_step_agreement_abs": 6.245060024667737e-12,
+      "ac_real": 0.5000000000000001,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 4.663269770333045e-12,
+      "ac_vs_dc_relative": 9.326539540579104e-12,
+      "tolerance_abs": 5.001000000046634e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.8634694098727673,
+          0.0
+        ],
+        [
+          -0.8634694098727673,
+          0.0
+        ],
+        [
+          -0.8634694098727673,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05,
+      "dc_slope_h": -0.8634694097647833,
+      "dc_slope_h_over_2": -0.8634694098758056,
+      "dc_step_agreement_abs": 1.1102230246251565e-10,
+      "ac_real": -0.8634694098727673,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.0382363291892034e-12,
+      "ac_vs_dc_relative": 3.5186380599472525e-12,
+      "tolerance_abs": 8.635694098758055e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.17036717656865655,
+          0.0
+        ],
+        [
+          0.17036717656865655,
+          0.0
+        ],
+        [
+          0.17036717656865655,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01703671765686566,
+      "dc_slope_h": 0.1703671765680009,
+      "dc_slope_h_over_2": 0.17036717656973563,
+      "dc_step_agreement_abs": 1.734723475976807e-12,
+      "ac_real": 0.17036717656865655,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.079081268784421e-12,
+      "ac_vs_dc_relative": 6.333856617872196e-12,
+      "tolerance_abs": 1.7046717656973564e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.36613400251925976,
+          0.0
+        ],
+        [
+          -0.36613400251925976,
+          0.0
+        ],
+        [
+          -0.36613400251925976,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01703671765686566,
+      "dc_slope_h": -0.3661340025225279,
+      "dc_slope_h_over_2": -0.3661340025190585,
+      "dc_step_agreement_abs": 3.469446951953614e-12,
+      "ac_real": -0.36613400251925976,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.0128343436454088e-13,
+      "ac_vs_dc_relative": 5.497534590605619e-13,
+      "tolerance_abs": 3.662340025190585e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.9090909090896103,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 2.0816681711721685e-12,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-reversed-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.11730205278592376,
+          0.0
+        ],
+        [
+          0.11730205278592376,
+          0.0
+        ],
+        [
+          0.11730205278592376,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592379,
+      "dc_slope_h": 0.11730205278564705,
+      "dc_slope_h_over_2": 0.1173020527862542,
+      "dc_step_agreement_abs": 6.071532165918825e-13,
+      "ac_real": 0.11730205278592376,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.3044400549187003e-13,
+      "ac_vs_dc_relative": 2.817035146810256e-12,
+      "tolerance_abs": 1.1740205278625422e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.06811086935956863,
+          0.0
+        ],
+        [
+          0.06811086935956863,
+          0.0
+        ],
+        [
+          0.06811086935956863,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592379,
+      "dc_slope_h": 0.06811086936120425,
+      "dc_slope_h_over_2": 0.0681108693646737,
+      "dc_step_agreement_abs": 3.469446951953614e-12,
+      "ac_real": 0.06811086935956863,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 5.105069145194818e-12,
+      "ac_vs_dc_relative": 7.495234156917995e-11,
+      "tolerance_abs": 6.82108693646737e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01652892561983471,
+      "dc_slope_h": 0.16528925619822138,
+      "dc_slope_h_over_2": 0.16528925619839485,
+      "dc_step_agreement_abs": 1.734723475976807e-13,
+      "ac_real": 0.16528925619834714,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 4.77118344832661e-14,
+      "ac_vs_dc_relative": 2.8865659862367653e-13,
+      "tolerance_abs": 1.6538925619839487e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.135236664162284,
+          0.0
+        ],
+        [
+          0.135236664162284,
+          0.0
+        ],
+        [
+          0.135236664162284,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01652892561983471,
+      "dc_slope_h": 0.13523666417096514,
+      "dc_slope_h_over_2": 0.13523666416229152,
+      "dc_step_agreement_abs": 8.673617379884035e-12,
+      "ac_real": 0.135236664162284,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.521760991835436e-15,
+      "ac_vs_dc_relative": 5.561924377851338e-14,
+      "tolerance_abs": 1.3533666416229152e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.27972027972027974,
+          0.0
+        ],
+        [
+          0.27972027972027974,
+          0.0
+        ],
+        [
+          0.27972027972027974,
+          0.0
+        ]
+      ],
+      "dc_output": 0.027972027972027982,
+      "dc_slope_h": 0.279720279720147,
+      "dc_slope_h_over_2": 0.27972027971980007,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.27972027972027974,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 4.796718577892989e-13,
+      "ac_vs_dc_relative": 1.714826891599684e-12,
+      "tolerance_abs": 2.798202797198001e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.38730500268961826,
+          0.0
+        ],
+        [
+          0.38730500268961826,
+          0.0
+        ],
+        [
+          0.38730500268961826,
+          0.0
+        ]
+      ],
+      "dc_output": 0.027972027972027982,
+      "dc_slope_h": 0.38730500276015767,
+      "dc_slope_h_over_2": 0.3873050026942382,
+      "dc_step_agreement_abs": 6.591949208711867e-11,
+      "ac_real": 0.38730500268961826,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 4.619915561221433e-12,
+      "ac_vs_dc_relative": 1.1928365316955824e-11,
+      "tolerance_abs": 3.874050026942382e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.9090909090896103,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 2.0816681711721685e-12,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-forward-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 1.3877787807814457e-11,
+      "dc_step_agreement_abs": 1.3877787807814457e-11,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.3877787807814457e-11,
+      "ac_vs_dc_relative": 0.0013877787807814457,
+      "tolerance_abs": 1.0000001387778781e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": -8.673617379884035e-13,
+      "dc_slope_h_over_2": -1.734723475976807e-12,
+      "dc_step_agreement_abs": 8.673617379884035e-13,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.734723475976807e-12,
+      "ac_vs_dc_relative": 0.0001734723475976807,
+      "tolerance_abs": 1.0000000173472348e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.2797202797202797,
+          0.0
+        ],
+        [
+          0.2797202797202797,
+          0.0
+        ],
+        [
+          0.2797202797202797,
+          0.0
+        ]
+      ],
+      "dc_output": 0.02797202797202797,
+      "dc_slope_h": 0.27972027971997354,
+      "dc_slope_h_over_2": 0.2797202797194531,
+      "dc_step_agreement_abs": 5.204170427930421e-13,
+      "ac_real": 0.2797202797202797,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 8.26561041833429e-13,
+      "ac_vs_dc_relative": 2.954955724563241e-12,
+      "tolerance_abs": 2.7982027971945314e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.38730500268961804,
+          0.0
+        ],
+        [
+          -0.38730500268961804,
+          0.0
+        ],
+        [
+          -0.38730500268961804,
+          0.0
+        ]
+      ],
+      "dc_output": 0.02797202797202797,
+      "dc_slope_h": -0.3873050027618924,
+      "dc_slope_h_over_2": -0.3873050027115854,
+      "dc_step_agreement_abs": 5.0306980803327406e-11,
+      "ac_real": -0.38730500268961804,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.196737236559443e-11,
+      "ac_vs_dc_relative": 5.671853503517196e-11,
+      "tolerance_abs": 3.874050027115854e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01652892561983471,
+      "dc_slope_h": 0.16528925619839485,
+      "dc_slope_h_over_2": 0.16528925619839485,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.16528925619834714,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 4.77118344832661e-14,
+      "ac_vs_dc_relative": 2.8865659862367653e-13,
+      "tolerance_abs": 1.6538925619839487e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.135236664162284,
+          0.0
+        ],
+        [
+          -0.135236664162284,
+          0.0
+        ],
+        [
+          -0.135236664162284,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01652892561983471,
+      "dc_slope_h": -0.13523666417269986,
+      "dc_slope_h_over_2": -0.13523666417269986,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": -0.135236664162284,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.0415862616852678e-11,
+      "ac_vs_dc_relative": 7.701951745535085e-11,
+      "tolerance_abs": 1.3533666417269986e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.11730205278592375,
+          0.0
+        ],
+        [
+          0.11730205278592375,
+          0.0
+        ],
+        [
+          0.11730205278592375,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592377,
+      "dc_slope_h": 0.11730205278573379,
+      "dc_slope_h_over_2": 0.1173020527862542,
+      "dc_step_agreement_abs": 5.204170427930421e-13,
+      "ac_real": 0.11730205278592375,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.3045788327967784e-13,
+      "ac_vs_dc_relative": 2.8171534549513173e-12,
+      "tolerance_abs": 1.1740205278625422e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.06811086935956862,
+          0.0
+        ],
+        [
+          -0.06811086935956862,
+          0.0
+        ],
+        [
+          -0.06811086935956862,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592377,
+      "dc_slope_h": -0.06811086936207161,
+      "dc_slope_h_over_2": -0.06811086935600008,
+      "dc_step_agreement_abs": 6.071532165918825e-12,
+      "ac_real": -0.06811086935956862,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.5685343569014094e-12,
+      "ac_vs_dc_relative": 5.2393023178862815e-11,
+      "tolerance_abs": 6.821086935600008e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.9090909090896103,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 2.0816681711721685e-12,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-reversed-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.24025307335204196,
+          0.0
+        ],
+        [
+          0.24025307335204196,
+          0.0
+        ],
+        [
+          0.24025307335204196,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0240253073352042,
+      "dc_slope_h": 0.24025307335182042,
+      "dc_slope_h_over_2": 0.24025307335216736,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.24025307335204196,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.2539969063141143e-13,
+      "ac_vs_dc_relative": 5.219483309068778e-13,
+      "tolerance_abs": 2.403530733521674e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.4202943894129492,
+          0.0
+        ],
+        [
+          0.4202943894129492,
+          0.0
+        ],
+        [
+          0.4202943894129492,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0240253073352042,
+      "dc_slope_h": 0.42029438940445474,
+      "dc_slope_h_over_2": 0.4202943894096589,
+      "dc_step_agreement_abs": 5.204170427930421e-12,
+      "ac_real": 0.4202943894129492,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.290312466930345e-12,
+      "ac_vs_dc_relative": 7.828590030792187e-12,
+      "tolerance_abs": 4.203943894096589e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.4999999999999999,
+          0.0
+        ],
+        [
+          0.4999999999999999,
+          0.0
+        ],
+        [
+          0.4999999999999999,
+          0.0
+        ]
+      ],
+      "dc_output": 0.049999999999999996,
+      "dc_slope_h": 0.4999999999998061,
+      "dc_slope_h_over_2": 0.4999999999991122,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.4999999999999999,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 8.876788193390439e-13,
+      "ac_vs_dc_relative": 1.77535763868124e-12,
+      "tolerance_abs": 5.000999999991123e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.5756462732485115,
+          0.0
+        ],
+        [
+          0.5756462732485115,
+          0.0
+        ],
+        [
+          0.5756462732485115,
+          0.0
+        ]
+      ],
+      "dc_output": 0.049999999999999996,
+      "dc_slope_h": 0.5756462732320333,
+      "dc_slope_h_over_2": 0.5756462732459111,
+      "dc_step_agreement_abs": 1.3877787807814457e-11,
+      "ac_real": 0.5756462732485115,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.6003643682770416e-12,
+      "ac_vs_dc_relative": 4.517295584342623e-12,
+      "tolerance_abs": 5.757462732459111e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.759746926647958,
+          0.0
+        ],
+        [
+          0.759746926647958,
+          0.0
+        ],
+        [
+          0.759746926647958,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0759746926647958,
+      "dc_slope_h": 0.7597469266470979,
+      "dc_slope_h_over_2": 0.7597469266484856,
+      "dc_step_agreement_abs": 1.3877787807814457e-12,
+      "ac_real": 0.759746926647958,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 5.276890036043369e-13,
+      "ac_vs_dc_relative": 6.94558918365305e-13,
+      "tolerance_abs": 7.598469266484856e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.4202943894129493,
+          0.0
+        ],
+        [
+          0.4202943894129493,
+          0.0
+        ],
+        [
+          0.4202943894129493,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0759746926647958,
+      "dc_slope_h": 0.4202943894096589,
+      "dc_slope_h_over_2": 0.4202943893888422,
+      "dc_step_agreement_abs": 2.0816681711721685e-11,
+      "ac_real": 0.4202943894129493,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.410704968980326e-11,
+      "ac_vs_dc_relative": 5.735753390583625e-11,
+      "tolerance_abs": 4.2039438938884224e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.9090909090909981,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-forward-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.7597469266479578,
+          0.0
+        ],
+        [
+          0.7597469266479578,
+          0.0
+        ],
+        [
+          0.7597469266479578,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0759746926647958,
+      "dc_slope_h": 0.7597469266470979,
+      "dc_slope_h_over_2": 0.7597469266484856,
+      "dc_step_agreement_abs": 1.3877787807814457e-12,
+      "ac_real": 0.7597469266479578,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 5.278000259067994e-13,
+      "ac_vs_dc_relative": 6.947050490024531e-13,
+      "tolerance_abs": 7.598469266484856e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.4202943894129493,
+          0.0
+        ],
+        [
+          -0.4202943894129493,
+          0.0
+        ],
+        [
+          -0.4202943894129493,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0759746926647958,
+      "dc_slope_h": -0.4202943894235367,
+      "dc_slope_h_over_2": -0.42029438940272,
+      "dc_step_agreement_abs": 2.0816681711721685e-11,
+      "ac_real": -0.4202943894129493,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.0229261881988805e-11,
+      "ac_vs_dc_relative": 2.4338326039816045e-11,
+      "tolerance_abs": 4.2039438940272e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.4999999999999999,
+          0.0
+        ],
+        [
+          0.4999999999999999,
+          0.0
+        ],
+        [
+          0.4999999999999999,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05,
+      "dc_slope_h": 0.5000000000001531,
+      "dc_slope_h_over_2": 0.4999999999998061,
+      "dc_step_agreement_abs": 3.470002063465927e-13,
+      "ac_real": 0.4999999999999999,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.9378942894832107e-13,
+      "ac_vs_dc_relative": 3.8757885789679245e-13,
+      "tolerance_abs": 5.000999999998062e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.5756462732485114,
+          0.0
+        ],
+        [
+          -0.5756462732485114,
+          0.0
+        ],
+        [
+          -0.5756462732485114,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05,
+      "dc_slope_h": -0.5756462732181555,
+      "dc_slope_h_over_2": -0.5756462732320333,
+      "dc_step_agreement_abs": 1.3877787807814457e-11,
+      "ac_real": -0.5756462732485114,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.6478041153789036e-11,
+      "ac_vs_dc_relative": 2.8625289383480496e-11,
+      "tolerance_abs": 5.7574627323203334e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.24025307335204196,
+          0.0
+        ],
+        [
+          0.24025307335204196,
+          0.0
+        ],
+        [
+          0.24025307335204196,
+          0.0
+        ]
+      ],
+      "dc_output": 0.024025307335204207,
+      "dc_slope_h": 0.24025307335182042,
+      "dc_slope_h_over_2": 0.24025307335112653,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.24025307335204196,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 9.154343949546728e-13,
+      "ac_vs_dc_relative": 3.810292131484113e-12,
+      "tolerance_abs": 2.4035307335112657e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.42029438941294917,
+          0.0
+        ],
+        [
+          -0.42029438941294917,
+          0.0
+        ],
+        [
+          -0.42029438941294917,
+          0.0
+        ]
+      ],
+      "dc_output": 0.024025307335204207,
+      "dc_slope_h": -0.4202943893957811,
+      "dc_slope_h_over_2": -0.4202943893888422,
+      "dc_step_agreement_abs": 6.938893903907228e-12,
+      "ac_real": -0.42029438941294917,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.41069386675008e-11,
+      "ac_vs_dc_relative": 5.735726975217333e-11,
+      "tolerance_abs": 4.2039438938884224e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.9090909090909981,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-reversed-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.11730205278592376,
+          0.0
+        ],
+        [
+          0.11730205278592376,
+          0.0
+        ],
+        [
+          0.11730205278592376,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592379,
+      "dc_slope_h": 0.11730205278573379,
+      "dc_slope_h_over_2": 0.11730205278573379,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.11730205278592376,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.899730373011721e-13,
+      "ac_vs_dc_relative": 1.619520142995115e-12,
+      "tolerance_abs": 1.174020527857338e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.06811086935956863,
+          0.0
+        ],
+        [
+          0.06811086935956863,
+          0.0
+        ],
+        [
+          0.06811086935956863,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592379,
+      "dc_slope_h": 0.06811086935946953,
+      "dc_slope_h_over_2": 0.06811086936120425,
+      "dc_step_agreement_abs": 1.734723475976807e-12,
+      "ac_real": 0.06811086935956863,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.635622193241204e-12,
+      "ac_vs_dc_relative": 2.4014114172691055e-11,
+      "tolerance_abs": 6.821086936120425e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ]
+      ],
+      "dc_output": 0.016528925619834715,
+      "dc_slope_h": 0.16528925619822138,
+      "dc_slope_h_over_2": 0.16528925619839485,
+      "dc_step_agreement_abs": 1.734723475976807e-13,
+      "ac_real": 0.16528925619834714,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 4.77118344832661e-14,
+      "ac_vs_dc_relative": 2.8865659862367653e-13,
+      "tolerance_abs": 1.6538925619839487e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.135236664162284,
+          0.0
+        ],
+        [
+          0.135236664162284,
+          0.0
+        ],
+        [
+          0.135236664162284,
+          0.0
+        ]
+      ],
+      "dc_output": 0.016528925619834715,
+      "dc_slope_h": 0.13523666417269986,
+      "dc_slope_h_over_2": 0.13523666416576097,
+      "dc_step_agreement_abs": 6.938893903907228e-12,
+      "ac_real": 0.135236664162284,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.4769687129454496e-12,
+      "ac_vs_dc_relative": 2.571025198228561e-11,
+      "tolerance_abs": 1.3533666416576097e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.27972027972027974,
+          0.0
+        ],
+        [
+          0.27972027972027974,
+          0.0
+        ],
+        [
+          0.27972027972027974,
+          0.0
+        ]
+      ],
+      "dc_output": 0.027972027972027975,
+      "dc_slope_h": 0.27972027971997354,
+      "dc_slope_h_over_2": 0.2797202797208409,
+      "dc_step_agreement_abs": 8.673617379884035e-13,
+      "ac_real": 0.27972027972027974,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 5.611622277967854e-13,
+      "ac_vs_dc_relative": 2.006154964369483e-12,
+      "tolerance_abs": 2.7982027972084092e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.3873050026896183,
+          0.0
+        ],
+        [
+          0.3873050026896183,
+          0.0
+        ],
+        [
+          0.3873050026896183,
+          0.0
+        ]
+      ],
+      "dc_output": 0.027972027972027975,
+      "dc_slope_h": 0.3873050027532188,
+      "dc_slope_h_over_2": 0.3873050026872993,
+      "dc_step_agreement_abs": 6.591949208711867e-11,
+      "ac_real": 0.3873050026896183,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.319033853837027e-12,
+      "ac_vs_dc_relative": 5.98761657542895e-12,
+      "tolerance_abs": 3.874050026872993e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.9090909090909981,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-forward-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-off-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ],
+        [
+          0.09090909090909091,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.09090909090896103,
+      "dc_slope_h_over_2": 0.09090909090930797,
+      "dc_step_agreement_abs": 3.469446951953614e-13,
+      "ac_real": 0.09090909090909091,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.1706247910202592e-13,
+      "ac_vs_dc_relative": 2.387687270116584e-12,
+      "tolerance_abs": 9.100909090930797e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-off-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-quarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.2797202797202797,
+          0.0
+        ],
+        [
+          0.2797202797202797,
+          0.0
+        ],
+        [
+          0.2797202797202797,
+          0.0
+        ]
+      ],
+      "dc_output": 0.02797202797202798,
+      "dc_slope_h": 0.27972027971980007,
+      "dc_slope_h_over_2": 0.2797202797208409,
+      "dc_step_agreement_abs": 1.0408340855860843e-12,
+      "ac_real": 0.2797202797202797,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 5.612177389480166e-13,
+      "ac_vs_dc_relative": 2.0063534167351342e-12,
+      "tolerance_abs": 2.7982027972084092e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-quarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.387305002689618,
+          0.0
+        ],
+        [
+          -0.387305002689618,
+          0.0
+        ],
+        [
+          -0.387305002689618,
+          0.0
+        ]
+      ],
+      "dc_output": 0.02797202797202798,
+      "dc_slope_h": -0.38730500276709656,
+      "dc_slope_h_over_2": -0.38730500271505486,
+      "dc_step_agreement_abs": 5.204170427930421e-11,
+      "ac_real": -0.387305002689618,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.5436874828699274e-11,
+      "ac_vs_dc_relative": 6.567659764367542e-11,
+      "tolerance_abs": 3.874050027150549e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-middle-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ],
+        [
+          0.16528925619834714,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01652892561983471,
+      "dc_slope_h": 0.1652892561980479,
+      "dc_slope_h_over_2": 0.16528925619735402,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.16528925619834714,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 9.931222511028182e-13,
+      "ac_vs_dc_relative": 6.00838961920815e-12,
+      "tolerance_abs": 1.6538925619735403e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-middle-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.135236664162284,
+          0.0
+        ],
+        [
+          -0.135236664162284,
+          0.0
+        ],
+        [
+          -0.135236664162284,
+          0.0
+        ]
+      ],
+      "dc_output": 0.01652892561983471,
+      "dc_slope_h": -0.13523666417269986,
+      "dc_slope_h_over_2": -0.13523666416229152,
+      "dc_step_agreement_abs": 1.0408340855860843e-11,
+      "ac_real": -0.135236664162284,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.521760991835436e-15,
+      "ac_vs_dc_relative": 5.561924377851338e-14,
+      "tolerance_abs": 1.3533666416229152e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-threequarter-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.11730205278592375,
+          0.0
+        ],
+        [
+          0.11730205278592375,
+          0.0
+        ],
+        [
+          0.11730205278592375,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592377,
+      "dc_slope_h": 0.11730205278573379,
+      "dc_slope_h_over_2": 0.1173020527862542,
+      "dc_step_agreement_abs": 5.204170427930421e-13,
+      "ac_real": 0.11730205278592375,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.3045788327967784e-13,
+      "ac_vs_dc_relative": 2.8171534549513173e-12,
+      "tolerance_abs": 1.1740205278625422e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-threequarter-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -0.06811086935956862,
+          0.0
+        ],
+        [
+          -0.06811086935956862,
+          0.0
+        ],
+        [
+          -0.06811086935956862,
+          0.0
+        ]
+      ],
+      "dc_output": 0.011730205278592377,
+      "dc_slope_h": -0.06811086936207161,
+      "dc_slope_h_over_2": -0.06811086935600008,
+      "dc_step_agreement_abs": 6.071532165918825e-12,
+      "ac_real": -0.06811086935956862,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 3.5685343569014094e-12,
+      "ac_vs_dc_relative": 5.2393023178862815e-11,
+      "tolerance_abs": 6.821086935600008e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-on-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ],
+        [
+          0.9090909090909092,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.9090909090909981,
+      "dc_slope_h_over_2": 0.909090909091692,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.9090909090909092,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 7.828182546631979e-13,
+      "ac_vs_dc_relative": 8.61100080128776e-13,
+      "tolerance_abs": 9.09190909091692e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-reversed-on-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09090909090909093,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-control-loading",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.0
+        ]
+      ],
+      "dc_output": 0.049999999999999996,
+      "dc_slope_h": 0.5000000000005,
+      "dc_slope_h_over_2": 0.49999999999356115,
+      "dc_step_agreement_abs": 6.938893903907228e-12,
+      "ac_real": 0.5,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 6.438849453616058e-12,
+      "ac_vs_dc_relative": 1.2877698907397951e-11,
+      "tolerance_abs": 5.000999999935612e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-single-ended-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.8634694098727672,
+          0.0
+        ],
+        [
+          0.8634694098727672,
+          0.0
+        ],
+        [
+          0.8634694098727672,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05000000000000001,
+      "dc_slope_h": 0.8634694097821305,
+      "dc_slope_h_over_2": 0.8634694098549889,
+      "dc_step_agreement_abs": 7.28583859910259e-11,
+      "ac_real": 0.8634694098727672,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.777833436023002e-11,
+      "ac_vs_dc_relative": 2.0589420027300926e-11,
+      "tolerance_abs": 8.635694098549888e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-default-parameters",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          6.664151761126417e-05,
+          0.0
+        ],
+        [
+          6.664151761126417e-05,
+          0.0
+        ],
+        [
+          6.664151761126417e-05,
+          0.0
+        ]
+      ],
+      "dc_output": 1.6749148221599516e-06,
+      "dc_slope_h": 6.664151762841635e-05,
+      "dc_slope_h_over_2": 6.664151761825196e-05,
+      "dc_step_agreement_abs": 1.0164395367051604e-14,
+      "ac_real": 6.664151761126417e-05,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 6.987791421886325e-15,
+      "ac_vs_dc_relative": 1.0485642691865242e-10,
+      "tolerance_abs": 1.6664151761825196e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-unit-control-span",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.1726938819745534,
+          0.0
+        ],
+        [
+          0.1726938819745534,
+          0.0
+        ],
+        [
+          0.1726938819745534,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05000000000000002,
+      "dc_slope_h": 0.172693881975855,
+      "dc_slope_h_over_2": 0.17269388196544666,
+      "dc_step_agreement_abs": 1.0408340855860843e-11,
+      "ac_real": 0.1726938819745534,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 9.106743137365925e-12,
+      "ac_vs_dc_relative": 5.27334439050252e-11,
+      "tolerance_abs": 1.7279388196544668e-05,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-wide-control-span",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.017269388197455344,
+          0.0
+        ],
+        [
+          0.017269388197455344,
+          0.0
+        ],
+        [
+          0.017269388197455344,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05000000000000001,
+      "dc_slope_h": 0.017269388207646896,
+      "dc_slope_h_over_2": 0.017269388183360768,
+      "dc_step_agreement_abs": 2.42861286636753e-11,
+      "ac_real": 0.017269388197455344,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.4094576200607278e-11,
+      "ac_vs_dc_relative": 8.161595564912686e-10,
+      "tolerance_abs": 1.7369388183360767e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-equal-control-limits",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          86.34694098727671,
+          0.0
+        ],
+        [
+          86.34694098727671,
+          0.0
+        ],
+        [
+          86.34694098727671,
+          0.0
+        ]
+      ],
+      "dc_output": 0.05000000000000001,
+      "dc_slope_h": 86.3469409747436,
+      "dc_slope_h_over_2": 86.346940984805,
+      "dc_step_agreement_abs": 1.006139882520074e-08,
+      "ac_real": 86.34694098727671,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.4717081714697997e-09,
+      "ac_vs_dc_relative": 2.8625312527339693e-11,
+      "tolerance_abs": 0.0086347040984805,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-08,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-almost-equal-control-limits",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          86.34694096569,
+          0.0
+        ],
+        [
+          86.34694096569,
+          0.0
+        ],
+        [
+          86.34694096569,
+          0.0
+        ]
+      ],
+      "dc_output": 0.049999999999999996,
+      "dc_slope_h": 86.34694095392692,
+      "dc_slope_h_over_2": 86.34694096745775,
+      "dc_step_agreement_abs": 1.3530836895370157e-08,
+      "ac_real": 86.34694096569,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.7677592722975533e-09,
+      "ac_vs_dc_relative": 2.047274926582266e-11,
+      "tolerance_abs": 0.008634704096745776,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-08,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-ron-floor",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.999999000001,
+          0.0
+        ],
+        [
+          0.999999000001,
+          0.0
+        ],
+        [
+          0.999999000001,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0999999000001,
+      "dc_slope_h": 0.9999990000002233,
+      "dc_slope_h_over_2": 0.9999990000009172,
+      "dc_step_agreement_abs": 6.938893903907228e-13,
+      "ac_real": 0.999999000001,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 8.271161533457416e-14,
+      "ac_vs_dc_relative": 8.271169804619634e-14,
+      "tolerance_abs": 0.00010000990000009173,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-roff-ceiling",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          9.99999999e-10,
+          0.0
+        ],
+        [
+          9.99999999e-10,
+          0.0
+        ],
+        [
+          9.99999999e-10,
+          0.0
+        ]
+      ],
+      "dc_output": 9.99999999e-11,
+      "dc_slope_h": 9.999999989985135e-10,
+      "dc_slope_h_over_2": 9.999999990017446e-10,
+      "dc_step_agreement_abs": 3.2311742677852644e-21,
+      "ac_real": 9.99999999e-10,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.7447307070274736e-21,
+      "ac_vs_dc_relative": 1.7447307070274736e-13,
+      "tolerance_abs": 1.00000999999999e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-05,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-log-resistance-clipped",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.00909090909090909,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "pswitch-linear-resistance-floor",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0999999999999,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-log-unlimited",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.022572150700853326,
+          0.0
+        ],
+        [
+          0.022572150700853326,
+          0.0
+        ],
+        [
+          0.022572150700853326,
+          0.0
+        ]
+      ],
+      "dc_output": 0.09900990099009901,
+      "dc_slope_h": 0.02257215071105323,
+      "dc_slope_h_over_2": 0.02257215067635876,
+      "dc_step_agreement_abs": 3.469446951953614e-11,
+      "ac_real": 0.022572150700853326,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 2.449456609765477e-11,
+      "ac_vs_dc_relative": 1.0851675787947613e-09,
+      "tolerance_abs": 2.267215067635876e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-unlimited",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.019457355961517674,
+          0.0
+        ],
+        [
+          0.019457355961517674,
+          0.0
+        ],
+        [
+          0.019457355961517674,
+          0.0
+        ]
+      ],
+      "dc_output": 0.006269592476489028,
+      "dc_slope_h": 0.019457355962104045,
+      "dc_slope_h_over_2": 0.019457355961670364,
+      "dc_step_agreement_abs": 4.3368086899420177e-13,
+      "ac_real": 0.019457355961517674,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 1.5269036035547856e-13,
+      "ac_vs_dc_relative": 7.847436242430262e-12,
+      "tolerance_abs": 1.9557355961670363e-06,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "aswitch-linear-resistance-floor",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "dc_output": 0.0999999999999,
+      "dc_slope_h": 0.0,
+      "dc_slope_h_over_2": 0.0,
+      "dc_step_agreement_abs": 0.0,
+      "ac_real": 0.0,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0,
+      "ac_vs_dc_relative": 0.0,
+      "tolerance_abs": 1e-08,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-06,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "multi-switch-signal",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          2656031.9148795772,
+          0.0
+        ],
+        [
+          2656031.9148795772,
+          0.0
+        ],
+        [
+          2656031.9148795772,
+          0.0
+        ]
+      ],
+      "dc_output": 2656.0319148791755,
+      "dc_slope_h": 2656031.9144050484,
+      "dc_slope_h_over_2": 2656031.9121836075,
+      "dc_step_agreement_abs": 0.0022214408963918686,
+      "ac_real": 2656031.9148795772,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.002695969771593809,
+      "ac_vs_dc_relative": 1.0150366639899924e-09,
+      "tolerance_abs": 265.60319122836074,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-07,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    },
+    {
+      "id": "multi-switch-control",
+      "status": "pass",
+      "transient_operating_point_fallback": false,
+      "ac_three_points": [
+        [
+          -60974.288964302126,
+          0.0
+        ],
+        [
+          -60974.288964302126,
+          0.0
+        ],
+        [
+          -60974.288964302126,
+          0.0
+        ]
+      ],
+      "dc_output": 2656.0319148791755,
+      "dc_slope_h": -60974.28673228933,
+      "dc_slope_h_over_2": -60974.28783959913,
+      "dc_step_agreement_abs": 0.0011073097994085401,
+      "ac_real": -60974.288964302126,
+      "ac_imag": 0.0,
+      "ac_vs_dc_abs": 0.0011247029979131185,
+      "ac_vs_dc_relative": 1.8445529054341684e-08,
+      "tolerance_abs": 6.097428793959913,
+      "rtol": 0.0001,
+      "atol": 1e-08,
+      "step": 1e-07,
+      "frequency_hz": 1e-05,
+      "mode": "ps"
+    }
+  ],
+  "executed": 97,
+  "passed": 97
+}
