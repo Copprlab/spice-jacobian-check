@@ -150,6 +150,11 @@ a solver's accepted operating point can be inappropriate for the intended
 measurement. Two agreeing differences do not prove that the physical branch
 was selected.
 
+A pass establishes local consistency under these assumptions, not correct
+constitutive physics. A DC initial-condition constraint and an incorrect AC
+stamp can share the same limit. Qualify such devices separately against their
+constitutive equations or another independent physical reference.
+
 By default generated decks and logs are temporary and removed. For diagnosis,
 `--keep-work /path/to/work` retains them there and reports the directory; it
 never embeds their contents in the JSON result. Device or deck licensing may
