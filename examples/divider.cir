@@ -1,0 +1,5 @@
+Resistive divider: DC slope and AC voltage gain are both 0.5 V/V
+VDR IN 0 DC 0.1
+R1 IN OUT 1k
+R2 OUT 0 1k
+.end
